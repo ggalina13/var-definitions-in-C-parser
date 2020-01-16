@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/gs-algo-1.3-SNAPSHOT-last.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/gs-ui-1.3-SNAPSHOT-last.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/gs-core-1.3-SNAPSHOT-last (1).jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/jgraph.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library>
+        <CLASSES />
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/Downloads/mxgraph-3.9.8.jar!/META-INF/resources/webjars/mxgraph/java/docs" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/mxgraph-3.9.8.jar!/META-INF/resources/webjars/mxgraph/java/examples" />
+          <root url="jar://$USER_HOME$/Downloads/mxgraph-3.9.8.jar!/META-INF/resources/webjars/mxgraph/java/src" />
+          <root url="jar://$USER_HOME$/Downloads/mxgraph-3.9.8.jar!/META-INF/resources/webjars/mxgraph/java/test" />
+          <root url="jar://$USER_HOME$/Downloads/mxgraph-3.9.8.jar!/META-INF/resources/webjars/mxgraph/javascript/examples/grapheditor/java/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

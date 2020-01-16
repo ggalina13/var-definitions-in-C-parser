@@ -1,0 +1,31 @@
+S -> N E S
+E -> N0 E1
+E1 -> , E
+E1 -> ;
+S -> ε
+N0 -> * N0
+N0 -> N
+
+
+S -> (N E S) | ε
+E -> N0 E1
+E1 -> (, E) | ;
+N0 -> (* N0) | N
+
+S - String
+N (Name) - varOrType
+N0 - *[0+]N
+E - Not empty enumeration of variables
+E1 - Continuation of enumeration
+
+**First**
+S	    {varOrType, ε}
+E1	    {ε, ,}
+varOrType0	{*, varOrType}
+E	    {*, varOrType}
+
+**Follow**
+S	    {$}
+E	    {;}
+E1	    {;}
+name0	{,, ;}
